@@ -70,3 +70,34 @@ footer{
   background:#ff7a00;
   color:white;
 }
+.register{
+  padding:40px 20px;
+  background:#f8f8f8;
+}
+
+.register h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.register form{
+  max-width:500px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.register input{
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.register button{
+  background:#ff7a00;
+  color:white;
+  border:none;
+  padding:12px;
+  border-radius:8px;
+}
