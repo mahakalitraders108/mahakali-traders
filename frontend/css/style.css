@@ -153,3 +153,74 @@ nav a:hover{
         font-size:16px;
     }
 }
+
+.hero{
+    background:#f7f9fc;
+    padding:60px 5%;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h2{
+    font-size:48px;
+    color:#0a1f44;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-text p{
+    font-size:20px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.hero-image{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+@media(max-width:768px){
+
+    .hero-content{
+        flex-direction:column;
+    }
+
+    .hero-text{
+        text-align:center;
+    }
+
+    .hero-text h2{
+        font-size:36px;
+    }
+
+    .hero-text p{
+        font-size:18px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+}
