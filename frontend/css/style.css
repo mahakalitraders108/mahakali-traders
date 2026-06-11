@@ -188,3 +188,70 @@ nav a:hover{
         justify-content:center;
     }
 }
+/* Why Choose Us */
+
+.why-choose{
+    padding:70px 5%;
+    background:#ffffff;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:36px;
+    color:#0a1f44;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#666;
+    font-size:18px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.why-card{
+    background:#ffffff;
+    padding:30px 25px;
+    border-radius:16px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.why-card h3{
+    color:#0a1f44;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#666;
+    line-height:1.6;
+}
+
+@media(max-width:768px){
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .section-title p{
+        font-size:16px;
+    }
+}
