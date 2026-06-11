@@ -315,39 +315,59 @@ nav a:hover{
         font-size:18px;
     }
 }
-<!-- Delivery Areas -->
+/* Delivery Areas */
 
-<section class="delivery-areas">
+.delivery-areas{
+    padding:70px 5%;
+    background:#f7f9fc;
+}
 
-    <div class="delivery-title">
+.delivery-title{
+    text-align:center;
+    margin-bottom:40px;
+}
 
-        <h2>Delivery Areas</h2>
+.delivery-title h2{
+    font-size:36px;
+    color:#0a1f44;
+    margin-bottom:15px;
+}
 
-        <p>
-            We proudly serve retailers across Gaya district.
-        </p>
+.delivery-title p{
+    color:#666;
+    font-size:18px;
+}
 
-    </div>
+.areas-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
 
-    <div class="areas-grid">
+.area-card{
+    background:#ffffff;
+    padding:20px;
+    border-radius:14px;
+    text-align:center;
+    font-weight:600;
+    color:#0a1f44;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
 
-        <div class="area-card">Belaganj</div>
-        <div class="area-card">Gaya</div>
-        <div class="area-card">Bodh Gaya</div>
-        <div class="area-card">Tekari</div>
-        <div class="area-card">Wazirganj</div>
-        <div class="area-card">Sherghati</div>
-        <div class="area-card">Imamganj</div>
-        <div class="area-card">Barachatti</div>
-        <div class="area-card">Guraru</div>
-        <div class="area-card">Gurua</div>
-        <div class="area-card">Fatehpur</div>
-        <div class="area-card">Manpur</div>
-        <div class="area-card">Paraiya</div>
-        <div class="area-card">Mohanpur</div>
-        <div class="area-card">Atri</div>
-        <div class="area-card">Khizarsarai</div>
+.area-card:hover{
+    transform:translateY(-5px);
+    background:#ff7a00;
+    color:white;
+}
 
-    </div>
+@media(max-width:768px){
 
-</section>
+    .delivery-title h2{
+        font-size:30px;
+    }
+
+    .delivery-title p{
+        font-size:16px;
+    }
+}
