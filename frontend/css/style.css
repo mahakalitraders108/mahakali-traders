@@ -255,3 +255,63 @@ nav a:hover{
         font-size:16px;
     }
 }
+@media(max-width:768px){
+
+    .section-title h2{
+        font-size:30px;
+    }
+
+    .section-title p{
+        font-size:16px;
+    }
+}
+
+/* Premium Stats Bar */
+
+.stats-bar{
+    background:#0a1f44;
+    padding:30px 5%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.stat-item{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:16px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.stat-icon{
+    font-size:36px;
+}
+
+.stat-item h3{
+    color:#ffffff;
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+.stat-item p{
+    color:#d6d6d6;
+    font-size:14px;
+}
+
+@media(max-width:768px){
+
+    .stat-item{
+        padding:18px;
+    }
+
+    .stat-icon{
+        font-size:32px;
+    }
+
+    .stat-item h3{
+        font-size:18px;
+    }
+}
