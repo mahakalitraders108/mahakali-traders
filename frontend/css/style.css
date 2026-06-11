@@ -315,3 +315,39 @@ nav a:hover{
         font-size:18px;
     }
 }
+<!-- Delivery Areas -->
+
+<section class="delivery-areas">
+
+    <div class="delivery-title">
+
+        <h2>Delivery Areas</h2>
+
+        <p>
+            We proudly serve retailers across Gaya district.
+        </p>
+
+    </div>
+
+    <div class="areas-grid">
+
+        <div class="area-card">Belaganj</div>
+        <div class="area-card">Gaya</div>
+        <div class="area-card">Bodh Gaya</div>
+        <div class="area-card">Tekari</div>
+        <div class="area-card">Wazirganj</div>
+        <div class="area-card">Sherghati</div>
+        <div class="area-card">Imamganj</div>
+        <div class="area-card">Barachatti</div>
+        <div class="area-card">Guraru</div>
+        <div class="area-card">Gurua</div>
+        <div class="area-card">Fatehpur</div>
+        <div class="area-card">Manpur</div>
+        <div class="area-card">Paraiya</div>
+        <div class="area-card">Mohanpur</div>
+        <div class="area-card">Atri</div>
+        <div class="area-card">Khizarsarai</div>
+
+    </div>
+
+</section>
