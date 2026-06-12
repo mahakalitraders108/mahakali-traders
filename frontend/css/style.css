@@ -255,16 +255,6 @@ nav a:hover{
         font-size:16px;
     }
 }
-@media(max-width:768px){
-
-    .section-title h2{
-        font-size:30px;
-    }
-
-    .section-title p{
-        font-size:16px;
-    }
-}
 
 /* Premium Stats Bar */
 
@@ -369,5 +359,66 @@ nav a:hover{
 
     .delivery-title p{
         font-size:16px;
+    }
+}
+/* Featured Brands */
+
+.brands{
+    padding:70px 5%;
+    background:#ffffff;
+}
+
+.brands-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.brands-title h2{
+    font-size:36px;
+    color:#0a1f44;
+    margin-bottom:15px;
+}
+
+.brands-title p{
+    color:#666;
+    font-size:18px;
+}
+
+.brands-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:20px;
+}
+
+.brand-card{
+    background:#f7f9fc;
+    padding:25px 20px;
+    border-radius:16px;
+    text-align:center;
+    font-size:20px;
+    font-weight:700;
+    color:#0a1f44;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.brand-card:hover{
+    transform:translateY(-5px);
+    background:#ff7a00;
+    color:white;
+}
+
+@media(max-width:768px){
+
+    .brands-title h2{
+        font-size:30px;
+    }
+
+    .brands-title p{
+        font-size:16px;
+    }
+
+    .brands-grid{
+        grid-template-columns:repeat(2,1fr);
     }
 }
