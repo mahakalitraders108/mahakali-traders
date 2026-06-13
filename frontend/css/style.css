@@ -506,3 +506,8 @@ nav a:hover{
         font-size:16px;
     }
 }
+.gst-number{
+    color:#d6d6d6;
+    margin-top:10px;
+    font-size:14px;
+}
